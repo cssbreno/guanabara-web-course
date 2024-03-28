@@ -1,0 +1,27 @@
+@charset 'UTF-8';
+
+body {
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(4, 109, 0);
+}
+
+h1#principal {
+    /* Usando ID pra estilizar um seletor específico 
+        pode ser feito sem o seletor, usando apeas # e o nome
+    */
+
+    text-align: center;
+}
+
+h2 {
+    color: rgb(51, 77, 49);
+}
+
+/* tudo que em HTML é id, em css é #
+    HTML id = CSS # */
+
+    /* em HTML, é class = em CSS é . */
