@@ -2,14 +2,14 @@
 
 body {
     background-color: rgb(205, 255, 203);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Snow, serif;
 }
 
 h1 {
     color: rgb(4, 109, 0);
 }
 
-h1#principal {
+#principal {
     /* Usando ID pra estilizar um seletor específico 
         pode ser feito sem o seletor, usando apeas # e o nome
     */
@@ -25,3 +25,15 @@ h2 {
     HTML id = CSS # */
 
     /* em HTML, é class = em CSS é . */
+
+.basic{
+    color: rgb(179, 24, 24);
+}
+
+.intermediary{
+    color: rgb(23, 23, 184);
+}
+
+.advanced{
+    color: rgb(190, 209, 19);
+}
