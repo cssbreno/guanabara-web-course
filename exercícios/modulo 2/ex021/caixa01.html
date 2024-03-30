@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modelo de Caixas</title>
     <style>
-        h1 {
+        h1 { /* box level */
             background-color: lightgreen;
-            text-align: center;
             height: 300px;
             width: 300px;
+
             border-width: 7px;
             border-style: solid;
             border-color: darkgray;
-            border-radius: 7%;
+
+            /* shorthand para border: 
+            
+            border: 10px solid black; - nessa ordem (width, style e color)
+
+            */
 
             padding: 10px;
 
@@ -34,9 +39,21 @@
 
             padding: W X Y Z (padding w para borda superior, padding x para borda lateral direita, padding y para borda inferior e padding z para borda lateral esquerda)*/
 
+
+            margin: auto;
+            /* centraliza horizontalmente */
+
+            outline-width: 10px;
+            outline-style: dashed;
+            outline-color: black;
+            /* outline é uma parte externa da borda, que fica entre a borda e a margem*/
+
+            /* shorthand outline: 10px dashed black; */
+
         }
 
-        a{
+        a{ /* inline level */
+            display: block;
             border-width: 2px;
             border-style: solid;
             border-color: brown;
