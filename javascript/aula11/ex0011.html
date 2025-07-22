@@ -1,0 +1,64 @@
+<<<<<<< HEAD:ex0011.html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise de Nacionalidade</title>
+</head>
+<body>
+    <h1>Verificador de nacionalidade brasileira</h1>
+    <p>Digite a abreviatura da sua nacionalidade: (Exemplo: 'EUA')</p>
+    <input type="text" name="textN" id="textN">
+    <input type="button" value="Verificar" onclick="verify()">
+    <p id="result"></p>
+
+    <script>
+        function verify (){
+            var nac = document.getElementById("textN").value;
+            // a var nac vai armazenar o valor da variável que estiver dentro de textN
+            var res = document.getElementById('result')
+            // a var res vai armazenar o que estiver dentro do <p> de id #result
+
+            if (nac.toUpperCase() === 'BR') {
+            res.innerHTML = 'Você é brasileiro!'
+            }
+            else {
+                res.innerHTML = 'Você é estrangeiro!'
+            } 
+        }
+    </script>
+</body>
+=======
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise de Nacionalidade</title>
+</head>
+<body>
+    <h1>Verificador de nacionalidade brasileira</h1>
+    <p>Digite a abreviatura da sua nacionalidade: (Exemplo: 'EUA')</p>
+    <input type="text" name="textN" id="textN">
+    <input type="button" value="Verificar" onclick="verify()">
+    <p id="result"></p>
+
+    <script>
+        function verify (){
+            var nac = document.getElementById("textN").value;
+            // a var nac vai armazenar o valor da variável que estiver dentro de textN
+            var res = document.getElementById('result')
+            // a var res vai armazenar o que estiver dentro do <p> de id #result
+
+            if (nac.toUpperCase() === 'BR') {
+            res.innerHTML = 'Você é brasileiro!'
+            }
+            else {
+                res.innerHTML = 'Você é estrangeiro!'
+            }
+        }
+    </script>
+</body>
+>>>>>>> d7732cca4c308461187f094e728ce34742ea568b:aula11/ex0011.html
+</html>
